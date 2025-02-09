@@ -1,0 +1,137 @@
+/* Import Bootstrap's default styles */
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+
+/* General styles for the whole website */
+body {
+    background-color: #f8f9fa; /* Light background color */
+    color: #000; /* Black text */
+    font-family: 'Times New Roman', Times, serif; /* Set font to Times New Roman */
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #fff; /* Set header to white */
+    border-bottom: 1px solid #ddd; /* Light gray border */
+}
+
+.navbar .navbar-brand {
+    color: #000;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif; /* Ensure navbar text uses Times New Roman */
+}
+
+/* Bigger logo */
+.navbar .navbar-brand img {
+    width: 100px; /* Increase the size of the logo */
+    height: 100px;
+}
+
+/* Buttons in the navbar */
+.navbar .btn {
+    background-color: #333333; /* Light black */
+    color: #fff;
+    border-color: #333333;
+    margin-left: 10px; /* Add space between buttons */
+}
+
+.navbar .btn:hover {
+    background-color: #555555; /* Slightly lighter black on hover */
+    border-color: #555555;
+}
+
+/* Buttons in the body */
+.btn-primary {
+    background-color: #808080; /* Gray button */
+    border-color: #808080;
+}
+
+.btn-primary:hover {
+    background-color: #606060; /* Slightly darker gray on hover */
+    border-color: #606060;
+}
+
+/* Outline buttons */
+.btn-outline-dark {
+    color: #000;
+    border-color: #000;
+}
+
+.btn-outline-dark:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Form input fields */
+input[type="text"], input[type="email"], input[type="password"] {
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif; /* Ensure input fields use Times New Roman */
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus {
+    border-color: #000;
+    box-shadow: none;
+}
+
+/* Footer styling */
+footer {
+    background-color: #fff;
+    color: #000;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #ddd; /* Light border at the top of the footer */
+}
+
+footer a {
+    color: #000;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif; /* Ensure footer text uses Times New Roman */
+}
+
+footer a:hover {
+    color: #555;
+}
+
+/* Custom container for profile pages */
+.profile-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #000;
+    margin-top: 20px;
+}
+
+/* Profile picture styling */
+.profile-pic {
+    border-radius: 50%;
+    border: 2px solid #000;
+    width: 150px;
+    height: 150px;
+}
+
+/* General card styles for listings */
+.card {
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.card-title {
+    color: #000;
+    font-family: 'Times New Roman', Times, serif; /* Ensure card titles use Times New Roman */
+}
+
+.card-text {
+    color: #333;
+    font-family: 'Times New Roman', Times, serif; /* Ensure card text uses Times New Roman */
+}
+
+/* Buttons on card */
+.card .btn {
+    background-color: #808080; /* Gray button */
+    color: #fff;
+}
+
+.card .btn:hover {
+    background-color: #606060; /* Slightly darker gray on hover */
+}
+
